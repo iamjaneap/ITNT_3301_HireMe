@@ -2,7 +2,7 @@
 
 ## Significance of the Proposed Topic <br>
 
-The project entitled " Hire Me: A Job Hiring Application of Different Eateries in Bauan Batangas" would be beneficial to the following: <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  The project entitled " Hire Me: A Job Hiring Application of Different Eateries in Bauan Batangas" would be beneficial to the following: <br>
 
 <b> Eatery owner / staffs </b><br>
 &nbsp; &nbsp; &nbsp; &nbsp;  The proposed project will help owners / staff to easily find a trustworthy employee to work to their business. Since today is pandemic era, they could lessen the interaction with all the applicant because they can easily review the information of the applicant like resume so that they could choose those who deserve to dive in the interview. <br> 
