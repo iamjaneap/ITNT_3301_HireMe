@@ -1,6 +1,6 @@
 # Hire Me: A Job Hiring Application of Different Eateries in Bauan, Batangas
 
-## align="center" Significance of the Proposed Topic <br>
+## Significance of the Proposed Topic <br>
 
 The project entitled " Hire Me: A Job Hiring Application of Different Eateries in Bauan Batangas" would be beneficial to the following: <br>
 
