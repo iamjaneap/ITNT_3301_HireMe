@@ -13,11 +13,12 @@
 <h1 align="center"> 
 
 <h3> Sustainable Development Goals (SDGs) </h3>
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; Goal 8: Decent Work and Economic Growth
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; Our SDG aligned on increasing the eateries' sales, help the job seekers to find work, and also assist the job owners to find the perfect workers for their business. 
 
- <h3 align=center><b> Our SDG aligned on increasing the eateries' sales, help the job seekers to find work, and also assist the job owners to find the perfect workers for their business. </b></h3>
+ <h3 align=center><b> Goal 8: Decent Work and Economic Growth </b></h3>
  
- ![sdg8](https://user-images.githubusercontent.com/74886614/170425067-e871e740-bc5b-4f8e-8569-c7ef4a2e3cb0.jpg)
+ ![sdg8](https://user-images.githubusercontent.com/102911931/179253392-33b6bab7-8704-4a3f-abda-dd016170f5f7.png)
+
  
  <h1 align="center"> 
 
