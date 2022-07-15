@@ -2,12 +2,22 @@
 
 ## Significance of the Proposed Topic <br>
 
-&nbsp; &nbsp; &nbsp; &nbsp;  The project entitled " Hire Me: A Job Hiring Application of Different Eateries in Bauan Batangas" would be beneficial to the following: <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  The project entitled " Hire Me: A Job Hiring Application of Different Eateries in Bauan, Batangas" would be beneficial to the following: <br>
 
-<b> Eatery owner / staffs </b><br>
+<b> Eatery Owner / staffs </b><br>
 &nbsp; &nbsp; &nbsp; &nbsp;  The proposed project will help owners / staff to easily find a trustworthy employee to work to their business. Since today is pandemic era, they could lessen the interaction with all the applicant because they can easily review the information of the applicant like resume so that they could choose those who deserve to dive in the interview. <br> 
 
-<b>People who seek for Jobs</b><br>
+<b>People Who Seek for Jobs</b><br>
 &nbsp; &nbsp; &nbsp; &nbsp;  The proposed project will help many people to easily find a firm who are hiring and employee for them to apply. They could easily submit their information or requirements online and wait for the response of the representative of the firm you are applying. <br>
 
-## Sustainable Development Goal
+<h1 align="center"> 
+
+<h3> Sustainable Development Goals (SDGs) </h3>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; Goal 8: Decent Work and Economic Growth
+
+ <h3 align=center><b> Our SDG aligned on increasing the eateries' sales, help the job seekers to find work, and also assist the job owners to find the perfect workers for their business. </b></h3>
+ 
+ ![sdg8](https://user-images.githubusercontent.com/74886614/170425067-e871e740-bc5b-4f8e-8569-c7ef4a2e3cb0.jpg)
+ 
+ <h1 align="center"> 
+
