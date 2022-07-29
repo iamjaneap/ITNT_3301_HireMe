@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-icon name="menu" type  = "button" id = "menu"></ion-icon>
+  <ion-popover trigger="menu" [dismissOnSelect]="true">
+    <ng-template>
+      <ion-content>
+        <ion-list>
+          <ion-item [button] = "true"[detail]="false" [routerLink]="['/profile']">
+            <ion-icon name = "person-circle-outline" id = "profile"></ion-icon>
+            Profile
+          </ion-item>
+          <ion-item [button] = "true"[detail]="false" [routerLink]="['/companies']">
+            <ion-icon name = "business-outline" id = "companies"></ion-icon>
+            Companies
+          </ion-item>
+          <ion-item [button] = "true"[detail]="false" [routerLink]="['/home']">
+            <ion-icon name = "exit-outline" id = "logout"></ion-icon>
+            Logout
+          </ion-item>
+        </ion-list>
+      </ion-content>
+    </ng-template>
+  </ion-popover>
+  <ion-icon name = "search-circle"></ion-icon>
+  <ion-title >
+    HireME
+  </ion-title>
+  
+</ion-header>
+
+<ion-content>
+ 
+</ion-content>

@@ -9,8 +9,7 @@
   <div id="insidecontainer">
     <div id="leftpanel">
       <h1>Welcome! </h1>
-      <p>We're honor to have a user like you</p>
-      <ion-icon name = "handshake"></ion-icon>
+      <p><strong>HireMe is a website for people <br> seeking jobs in Bauan, Batangas</strong> </p>
     </div>
     <div id ="rightpanel">
       <ion-button shape = "round" color = "light" end (click) = "already()"> Sign-in</ion-button>
@@ -27,7 +26,7 @@
           <ion-input type = "password"></ion-input>
         </ion-item><br>
         <a href = "">Forgot Password?</a><br>
-        <ion-button> SIGN-IN </ion-button>
+        <ion-button [routerLink] = "['/user-homepage']"> SIGN-IN </ion-button>
       </form>
       </div>
       
