@@ -1,0 +1,59 @@
+<ion-header [translucent]="true">
+  <ion-icon name = "search-circle"></ion-icon>
+  <ion-title >
+    HireME
+  </ion-title>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+      <form>
+        <ion-item>
+          <ion-label position="floating" > Full Name</ion-label>
+          <ion-input placeholder="Juan M. Dela Cruz" name="fname" type="text" required></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label position="floating" >Email</ion-label>
+            <ion-input placeholder="juan_delacruz@gmail.com" name="email" type="email" required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating" >Username</ion-label>
+          <ion-input placeholder="juan_delacruz" name="username" type="text" required></ion-input>
+        </ion-item>
+        <ion-item>
+              <ion-label position="floating">Password</ion-label>
+              <ion-input name="password" type="password" required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Repeat Password</ion-label>
+          <ion-input name="rpassword" type="password" required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Birthdate</ion-label><br>
+          <ion-input name="bday" type="date" min = "2005" required></ion-input>
+      </ion-item>
+      <ion-list>
+        <ion-radio-group>
+          <ion-list-header>
+            <ion-label>Gender</ion-label>
+          </ion-list-header>
+          <ion-row>
+            <ion-item>
+              <ion-icon name = "male" id = "male"></ion-icon>
+              <ion-label>Male</ion-label>
+              <ion-radio slot = "start" value = "Male"></ion-radio>
+            </ion-item>
+            <ion-item>
+              <ion-icon name = "female" id = "female"></ion-icon>
+              <ion-label>Female</ion-label>
+              <ion-radio slot = "start" value = "Female"></ion-radio>
+            </ion-item>
+          </ion-row>
+        </ion-radio-group>
+      </ion-list>
+      <ion-button [routerLink]="['/success']" expand="full"> Register </ion-button>
+      <ion-button [routerLink]="['/home']" expand="full"> Home </ion-button>
+      </form>
+  </div>
+</ion-content>
+

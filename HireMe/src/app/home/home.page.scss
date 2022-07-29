@@ -1,5 +1,3 @@
-
-
 ion-header {
   display: flex;
   height: 50px;
@@ -22,7 +20,9 @@ ion-title {
   height: 100%;
   width: 100%;
   text-align: center;
-  background-color: rgb(66, 66, 66);
+  background-image: url("bg.jpeg");
+  background-repeat: repeat-y;
+  background-size: 100%, 100%;
   position: absolute;
   left: 0;
   right: 0;
@@ -41,17 +41,11 @@ ion-title {
 #insidecontainer {
   display: flex;
   width: 80%;
-  background-color: rgb(33, 147, 240);
   margin-left: 10%;
 }
 
-#rightpanel {
-  padding: 8px;
-  background-color: rgb(29, 28, 28);
-}
-
 #leftpanel {
-  background-color: rgb(49, 97, 255);
+  background-color: rgb(49, 190, 255);
 }
 
 h1 {
@@ -65,8 +59,17 @@ h1 {
   font-size: 24px;
 }
 
+#rightpanel {
+  padding: 8px;
+  background-color: rgb(29, 28, 28);
+}
+
+#insideright {
+  padding: 5%;
+  height: 80%;
+}
+
 h2 {
-  margin-top: 80px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 48px;
   color: white;
@@ -81,9 +84,15 @@ ion-item {
   opacity: 90%;
 }
 
-@media (max-width: 700px){
+ion-button {
+  height: 30px;
+}
+
+
+@media (max-width: 412px){
   #insidecontainer {
     flex-direction: column;
+    height: 600px;
   }
   h1{
     padding-top: 50px;

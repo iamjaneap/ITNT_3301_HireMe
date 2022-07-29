@@ -1,0 +1,29 @@
+ion-header {
+    display: flex;
+    height: 50px;
+    background-color: black;
+  }
+  
+ion-icon {
+    padding:5px;
+    color: white;
+    font-size: 40px;
+  }
+  
+ion-title {
+    padding: 5px;
+    color: white;
+  }
+
+ion-row {
+    align-items: center;
+    justify-content: center;
+}
+
+#male {
+    color: blue;
+}
+
+#female {
+    color: magenta;
+}
