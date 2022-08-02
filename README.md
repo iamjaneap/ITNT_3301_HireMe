@@ -8,13 +8,13 @@
 
 <h3> Significance of the Proposed Topic </h3>
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; The project entitled " Hire Me: A Job Hiring Application of Different Eateries in Bauan, Batangas" would be beneficial to the following: <br>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; The project entitled " Hire Me: A Job Finder Application for Seekers in Bauan, Batangas" would be beneficial to the following: <br>
 
-<b> Eatery Owner / staffs </b><br>
-&nbsp; &nbsp; &nbsp; &nbsp;  The proposed project will help owners / staff to easily find a trustworthy employee to work to their business. Since today is pandemic era, they could lessen the interaction with all the applicant because they can easily review the information of the applicant like resume so that they could choose those who deserve to dive in the interview. <br> 
+<b> Company/Business Owner </b><br>
+&nbsp; &nbsp; &nbsp; &nbsp;  The proposed project will help owners / staff to easily find a trustworthy employee to work to their business. The information of their company including the job they are offering will be posted in the application if they want in order to easily find new employees. <br> 
 
 <b>People Who Seek for Jobs</b><br>
-&nbsp; &nbsp; &nbsp; &nbsp;  The proposed project will help many people to easily find a firm who are hiring and employee for them to apply. They could easily submit their information or requirements online and wait for the response of the representative of the firm you are applying. <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  The proposed project will help many people to easily find a firm who are hiring an employee for them to apply. They could easily see what are the information of a specific company and information of the job they are offering in order for you to decide what kind of job to apply. <br>
 
 <h1 align="center"> 
 
