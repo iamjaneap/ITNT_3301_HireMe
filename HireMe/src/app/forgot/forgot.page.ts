@@ -1,17 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { ToastController, AlertController, LoadingController } from '@ionic/angular';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { Router } from '@angular/router';
+import { AlertController, LoadingController, ToastController } from '@ionic/angular';
 import { AuthService } from '../services/auth.service';
 
 @Component({
-  selector: 'app-sign-up',
-  templateUrl: './sign-up.page.html',
-  styleUrls: ['./sign-up.page.scss'],
+  selector: 'app-forgot',
+  templateUrl: './forgot.page.html',
+  styleUrls: ['./forgot.page.scss'],
 })
-export class SignUpPage implements OnInit {
-
+export class ForgotPage implements OnInit {
   credentials: FormGroup;
+  handlerMessage: string;
 
   constructor(
     private fb: FormBuilder,
@@ -19,7 +18,8 @@ export class SignUpPage implements OnInit {
     private loadingController: LoadingController,
     private alertController: AlertController,
     private authService: AuthService,
-    private router: Router) {}
+    ) {}
+
     get email() {
       return this.credentials.get('email');
     }
@@ -34,29 +34,23 @@ export class SignUpPage implements OnInit {
       });
     }
 
-    async register(){
+    async resetpassword(){
       const loading = await this.loadingController.create();
       await loading.present();
-      const user = await this.authService.register(this.credentials.value);
+      await this.authService.reset(this.credentials.value);
       loading.dismiss();
 
-      if (user) {
-        this.router.navigateByUrl('/user-homepage', {replaceUrl: true});
-      } else {
-        this.showAlert('Registration failed', 'Please try again');
-      }
-    }
-
-
-    async showAlert(header, message) {
       const alert = await this.alertController.create({
-        header,
-        message,
-        buttons: ['OK']
+        header: 'RESET LINK SENT',
+        message: 'Open your email and click the link sent to you to reset your passsword. Check the spam folders if you cant find it',
+        buttons: [
+          {
+            text: 'OK',
+            role: 'confirm',
+            handler:() => {this.handlerMessage = 'Alert canceled';}
+          }
+        ]
       });
       await alert.present();
     }
-
-
 }
-

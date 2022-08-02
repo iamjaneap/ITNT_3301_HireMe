@@ -7,14 +7,14 @@
 
 <ion-content [fullscreen]="true">
   <div id="container">
-      <form>
+      <form [formGroup] = "credentials" (ngSubmit)="register()">
         <ion-item>
           <ion-label position="floating" > Full Name</ion-label>
           <ion-input placeholder="Juan M. Dela Cruz" name="fname" type="text" required></ion-input>
         </ion-item>
         <ion-item>
             <ion-label position="floating" >Email</ion-label>
-            <ion-input placeholder="juan_delacruz@gmail.com" name="email" type="email" required></ion-input>
+            <ion-input placeholder="juan_delacruz@gmail.com" formControlName="email" type="email" required></ion-input>
         </ion-item>
         <ion-item>
           <ion-label position="floating" >Username</ion-label>
@@ -22,7 +22,7 @@
         </ion-item>
         <ion-item>
               <ion-label position="floating">Password</ion-label>
-              <ion-input name="password" type="password" required></ion-input>
+              <ion-input name="password" type="password" formControlName = "password" required></ion-input>
         </ion-item>
         <ion-item>
           <ion-label position="floating">Repeat Password</ion-label>
@@ -51,8 +51,8 @@
           </ion-row>
         </ion-radio-group>
       </ion-list>
-      <ion-button [routerLink]="['/success']" expand="full"> Register </ion-button>
-      <ion-button [routerLink]="['/home']" expand="full"> Home </ion-button>
+      <ion-button type = "submit" expand="full"> Register </ion-button>
+      <ion-button type = "button" [routerLink]="['/home']" expand="full"> Home </ion-button>
       </form>
   </div>
 </ion-content>

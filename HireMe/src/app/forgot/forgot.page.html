@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-icon name = "search-circle"></ion-icon>
+  <ion-title >
+    HireME
+  </ion-title>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+      <form [formGroup]="credentials" (ngSubmit)="resetpassword()" >
+          <ion-item>
+              <ion-label position="floating" >Email</ion-label>
+              <ion-input placeholder="Email" formControlName="email" type="email"></ion-input>
+          </ion-item>
+            <ion-button  type="submit" expand="full"> Reset Password</ion-button>
+            <ion-button type="button" [routerLink]="['/home']" expand="full"> Back </ion-button>
+      </form>
+  </div>
+</ion-content>
+

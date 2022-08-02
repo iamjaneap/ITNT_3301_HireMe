@@ -14,16 +14,12 @@ ion-title {
   padding: 5px;
   color: white;
 }
-ion-content {
-  background-color: red;
-}
 #container {
   padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
   height: 100%;
   width: 100%;
-  background-image: url(bg.jpeg);
   text-align: center;
   position: absolute;
   left: 0;
@@ -42,7 +38,6 @@ ion-content {
 
 #insidecontainer {
   display: flex;
-  padding-bottom: 10%;
   width: 80%;
   margin-left: 10%;
 }
@@ -88,7 +83,6 @@ ion-item {
   opacity: 90%;
 }
 
-
 ion-button {
   height: 30px;
 }
@@ -99,7 +93,6 @@ ion-button {
     height: 600px;
     width: 96%;
     margin-left: 2%;
-    background-color: red;
   }
   h1{
     font-size: 24px;
@@ -126,6 +119,10 @@ ion-button {
     margin-top: 0px;
     font-size: 24px;
   }
+}
+
+#forget {
+  font-size: 12px;
 }
 
 
