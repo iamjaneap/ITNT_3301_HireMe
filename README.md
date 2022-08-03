@@ -1,5 +1,10 @@
 # HireMe: A Job Finder Application for Seekers in Bauan, Batangas
 
+<h3> Introduction </h3>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; HireMe: A Job Finder Application for Seekers in Bauan, Batangas, is a application wherein it helps different jobseekers to find work within the area that has a job vacancy. Its much easier for jobseekers to know the directions to different stores that are looking for helpers or looking for applicants.
+
+<h1 align="center">
+
 <h3> Problem Statement </h3>
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; Online hiring has fast taken over as the go-to method for talent scouting in Bauan Batangas as businesses start to move online. Because of this, various restaurants are now paying more attention to their online hiring methods, with the use of social media proving to be a particularly efficient method of seeking new staff.
 
@@ -26,10 +31,7 @@
  
  ![sdg8](https://user-images.githubusercontent.com/102911931/179253392-33b6bab7-8704-4a3f-abda-dd016170f5f7.png)
 
- 
  <h1 align="center"> 
-  
-  
   
 <h3> Methods </h3>
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; The researchers will utilize the Scrum method. Scrum shares Agile’s fundamental philosophy that development teams should collaborate daily and intensively. Scrum uses an iterative approach to web development where the team is a key. This approach requires self-management and self-organization which means that it will be a good fit for smaller projects with experienced and organized team members.
