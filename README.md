@@ -40,7 +40,7 @@
 <h1 align="center"> 
   
 <h3> Expected Output </h3>
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; This application is to help jobseekers and store owners to file and manage job vacancies and job application adequately. Moreover, this application will benefit to the both store owners and job seekers to find their suitable position, for the jobseekers. And staff, for the store owners. 
 
 <h1 align="center"> 
   
