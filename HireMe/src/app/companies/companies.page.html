@@ -1,14 +1,20 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button text="" icon="arrow-back-circle-outline"></ion-back-button>
-    </ion-buttons>
-    <ion-title>Companies</ion-title>
+    <div class="design">
+      <div class="design1">
+        <div>
+          <ion-buttons slot="start">
+          <ion-back-button defaultHref="/user-homepage" color="light" icon="arrow-back-circle-outline"></ion-back-button>
+          </ion-buttons>
+        </div>
+        <ion-label class="subject">Companies</ion-label>
+      </div>
+    </div>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
+  <ion-list class="edit">
     <ion-item [button] = "true" [detail]="false" [routerLink]="['/mongkokbauan']">
       <ion-avatar slot="start">
         <img src="./assets/images/mongkok.jpg" />
