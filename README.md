@@ -5,9 +5,11 @@
 
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; One issue that Bauan Batangas jobseekers frequently have is their difficulty in locating opportunities that are suited for them specifically when it comes to restaurants, food and services industry. When looking for a job, jobseekers may get discouraged if they can't discover the kinds of positions they want to apply for. And it is possible that job seekers aren't looking in the right places to obtain positions in the restaurant, food, and service sectors. Here, having a plan is essential. That is why we, the team, made a decision to develop an application as we are dedicated to constantly enhancing the value we offer to job searchers and businesses. 
 
+<h1 align="center"> 
+  
 <h3> Significance of the Proposed Topic </h3>
 
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; The project entitled " Hire Me: A Job Finder Application for Seekers in Bauan, Batangas" would be beneficial to the following: <br>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; The project entitled "Hire Me: A Job Finder Application for Seekers in Bauan, Batangas" would be beneficial to the following: <br>
 
 <b> Company/Business Owner </b><br>
 &nbsp; &nbsp; &nbsp; &nbsp;  The proposed project will help owners / staff to easily find a trustworthy employee to work to their business. The information of their company including the job they are offering will be posted in the application if they want in order to easily find new employees. <br> 
