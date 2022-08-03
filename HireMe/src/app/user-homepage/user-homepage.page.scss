@@ -30,9 +30,8 @@ ion-header {
     padding: 5px;
   }
 
-<<<<<<< HEAD
   ion-content.background{
-    --ion-background-color: linear-gradient(to right, #e485d4, #f0b4e3);
+    --background: url(../../assets/images/bg.jpeg);
 
     ion-card.bguser{
       --ion-background-color: linear-gradient(to right, #0f0d0e, #6e6d6e);
@@ -52,24 +51,17 @@ ion-header {
     }
 
     .title{
-      font-size: 300%;
+      font-size: 250%;
       font-style: inherit;
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     .title2{
-      font-size: 200%;
+      font-size: 150%;
     }
 
   }
   
   
-=======
-#container {
-  height: 100%;
-  width: 100%;
-  background-color: gray;
-}
->>>>>>> 20db4263144812bbac1d13285414912b6d16ec2f
   
 
