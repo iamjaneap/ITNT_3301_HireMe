@@ -37,3 +37,15 @@
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; The researchers will utilize the Scrum method. Scrum shares Agile’s fundamental philosophy that development teams should collaborate daily and intensively. Scrum uses an iterative approach to web development where the team is a key. This approach requires self-management and self-organization which means that it will be a good fit for smaller projects with experienced and organized team members.
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; Scrum combines the flexibility and iterative practices of the modern-day Agile method and the discipline and structure of more conventional methodologies. End goals are broken into smaller ones and the teams are supposed to use fixed-length iterations (typically they are two-week-long) to develop software and present it to the client. Meetings are crucial here and during each iteration, teams conduct daily meetings to track progress and get feedback. Such iterative approach allows quick changes and increases effectiveness for complex projects.
 
+<h1 align="center"> 
+  
+<h3> Expected Output </h3>
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<h1 align="center"> 
+  
+<h3> Contributors </h3>
+Dela Cuesta, Almario <br>
+Laureta, Cloudel <br>
+Apquis, Karylle Jane <br>
+Tapic, Katherine <br>
