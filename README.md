@@ -1,7 +1,9 @@
 # HireMe: A Job Finder Application for Seekers in Bauan, Batangas
 
 <h3> Introduction </h3>
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; HireMe: A Job Finder Application for Seekers in Bauan, Batangas, is a application wherein it helps different jobseekers to find work within the area that has a job vacancy. Its much easier for jobseekers to know the directions to different stores that are looking for helpers or looking for applicants.
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; The purpose of HireMe: A Job Finder Application for Seekers in Bauan, Batangas is to provide a platform for making the job-searching and job-posting processes simpler and more effective. As a function of the initiative, job seekers will be able to hunt for jobs more easily, and employers will be able to find qualified candidates.
+
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; Both job seekers and companies must be as effective as possible in today's labor market. Normally, job searchers have searched for job offers and openings manually and personally, which takes time and needs significant effort. In order to find out if a company is hiring, job seekers visit agencies or companies. Additionally, employers regularly utilize agencies or posters to publicize job opportunities, which is ineffective and slow to reach candidates. The manual method has to be improved because it is often ineffective.
 
 <h1 align="center">
 
