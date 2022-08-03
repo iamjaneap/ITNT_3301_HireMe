@@ -73,6 +73,14 @@ const routes: Routes = [
     path: 'toro',
     loadChildren: () => import('./companylist/toro/toro.module').then( m => m.ToroPageModule)
   },
+  {
+    path: 'profile',
+    loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule)
+  },
+  {
+    path: 'modal',
+    loadChildren: () => import('./modal/modal.module').then( m => m.ModalPageModule)
+  },
 
 
 ];

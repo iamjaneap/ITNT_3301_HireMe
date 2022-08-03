@@ -10,15 +10,19 @@
       <form [formGroup] = "credentials" (ngSubmit)="register()">
         <ion-item>
           <ion-label position="floating" > Full Name</ion-label>
-          <ion-input placeholder="Juan M. Dela Cruz" name="fname" type="text" required></ion-input>
+          <ion-input placeholder="Juan M. Dela Cruz" name="fname" type="text" required [(ngModel)]=" name" [ngModelOptions]="{standalone: true}"></ion-input>
         </ion-item>
         <ion-item>
             <ion-label position="floating" >Email</ion-label>
-            <ion-input placeholder="juan_delacruz@gmail.com" formControlName="email" type="email" required></ion-input>
+            <ion-input placeholder="juan_delacruz@gmail.com" formControlName="email" type="text" required></ion-input>
         </ion-item>
         <ion-item>
+          <ion-label position="floating" >Retype Email</ion-label>
+          <ion-input placeholder="juan_delacruz@gmail.com" type="text" required [(ngModel)]=" email2" [ngModelOptions]="{standalone: true}"></ion-input>
+      </ion-item>
+        <ion-item>
           <ion-label position="floating" >Username</ion-label>
-          <ion-input placeholder="juan_delacruz" name="username" type="text" required></ion-input>
+          <ion-input placeholder="juan_delacruz" name="username" type="text" required [(ngModel)]="username" [ngModelOptions]="{standalone: true}"></ion-input>
         </ion-item>
         <ion-item>
               <ion-label position="floating">Password</ion-label>
@@ -30,10 +34,10 @@
         </ion-item>
         <ion-item>
           <ion-label position="floating">Birthdate</ion-label><br>
-          <ion-input name="bday" type="date" min = "2005" required></ion-input>
+          <ion-input name="bday" type="date" min = "2005" required [(ngModel)]=" birthday" [ngModelOptions]="{standalone: true}"></ion-input>
       </ion-item>
       <ion-list>
-        <ion-radio-group>
+        <ion-radio-group [(ngModel)]= gender [ngModelOptions]="{standalone: true}">
           <ion-list-header>
             <ion-label>Gender</ion-label>
           </ion-list-header>

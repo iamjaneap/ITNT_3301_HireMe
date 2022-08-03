@@ -3,6 +3,7 @@ import { ToastController, AlertController, LoadingController } from '@ionic/angu
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AuthService } from '../services/auth.service';
+import { DataService } from '../services/data.service';
 
 @Component({
   selector: 'app-sign-up',
@@ -12,6 +13,14 @@ import { AuthService } from '../services/auth.service';
 export class SignUpPage implements OnInit {
 
   credentials: FormGroup;
+  profile = [];
+  birthday: string;
+  email2: string;
+  gender: string;
+  name: string;
+  username: string;
+
+
 
   constructor(
     private fb: FormBuilder,
@@ -19,7 +28,17 @@ export class SignUpPage implements OnInit {
     private loadingController: LoadingController,
     private alertController: AlertController,
     private authService: AuthService,
-    private router: Router) {}
+    private dataService: DataService,
+    private router: Router)
+    {
+
+      this.dataService.getProfiles().subscribe(res => {
+        console.log(res);
+      });
+    }
+
+
+
     get email() {
       return this.credentials.get('email');
     }
@@ -37,6 +56,10 @@ export class SignUpPage implements OnInit {
     async register(){
       const loading = await this.loadingController.create();
       await loading.present();
+
+      this.dataService.addProfile({birthday: this.birthday, email: this.email2,
+        gender: this.gender, name: this.name, username: this.username});
+
       const user = await this.authService.register(this.credentials.value);
       loading.dismiss();
 

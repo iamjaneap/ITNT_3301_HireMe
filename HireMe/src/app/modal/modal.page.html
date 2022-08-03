@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>modal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="profile">
+    <ion-item>
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input  [(ngModel)]=" profile.email" disabled="true"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Name</ion-label>
+      <ion-input [(ngModel)]=" profile.name"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Username</ion-label>
+      <ion-input  [(ngModel)]=" profile.username"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Birthday</ion-label>
+      <ion-input  [(ngModel)]=" profile.birthday" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Gender</ion-label>
+      <ion-input  [(ngModel)]=" profile.gender"></ion-input>
+    </ion-item>
+  </div>
+  <ion-button expand="block" color="success" (click)="updateProfile()">
+    <ion-icon name="save" slot="start"></ion-icon>
+    Update
+  </ion-button>
+</ion-content>

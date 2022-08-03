@@ -1,0 +1,50 @@
+<ion-header [translucent]="true">
+  <ion-icon name="home" [routerLink]="['/user-homepage']"></ion-icon>
+  <ion-icon name = "person-outline"></ion-icon>
+  <ion-title >
+    Profile
+  </ion-title>
+</ion-header>
+
+
+<ion-content>
+  <div>
+     <ion-item *ngFor="let profile of profile" (click)="openProfile(profile)">
+        <ion-col>
+          <ion-row>
+            <ion-label> Email: &nbsp;&nbsp;&nbsp; </ion-label>
+            <ion-label>
+              {{ profile.email }}
+            </ion-label>
+          </ion-row>
+          <ion-row>
+            <ion-label> Name: &nbsp;&nbsp;&nbsp; </ion-label>
+            <ion-label>
+              {{ profile.name }}
+            </ion-label>
+          </ion-row>
+          <ion-row>
+            <ion-label> Birthday: &nbsp;&nbsp; </ion-label>
+            <ion-label>
+              {{ profile.birthday }}
+            </ion-label>
+          </ion-row>
+          <ion-row>
+            <ion-label> Gender: &nbsp;&nbsp;&nbsp; </ion-label>
+            <ion-label>
+              {{ profile.gender }}
+            </ion-label>
+          </ion-row>
+          <ion-row>
+            <ion-label> Username: &nbsp;&nbsp;; </ion-label>
+            <ion-label>
+              {{ profile.username }}
+            </ion-label>
+          </ion-row>
+        </ion-col>
+      </ion-item>
+  
+    
+  
+  </div>
+</ion-content>
