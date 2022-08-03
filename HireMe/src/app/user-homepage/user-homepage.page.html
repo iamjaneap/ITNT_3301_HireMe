@@ -30,9 +30,17 @@
   </ion-title>
 </ion-header>
 
-<ion-content>
-  <div id =  "container">
-
-  </div>
+<ion-content padding class="background">
+  <ion-card padding class="bguser">
+    <div class="ion-padding" [align]="'center'">
+      Welcome to
+      <h1 class="title">HireMe: A Job Finder Application</h1>
+      <h4 class="title2">for Seekers in Bauan, Batangas</h4><br><br>
+      Check companies to apply!
+    </div>
+    <div [align]="'center'">
+      <ion-button [routerLink]="['/companies']">Companies</ion-button>
+      <p></p>
+    </div>
+  </ion-card>
 </ion-content>
-

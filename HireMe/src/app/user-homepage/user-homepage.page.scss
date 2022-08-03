@@ -30,10 +30,38 @@ ion-header {
     padding: 5px;
   }
 
-#container {
-  height: 100%;
-  width: 100%;
-  background-color: gray;
-}
+  ion-content.background{
+    --background: url(../../assets/images/bg.jpeg);
+
+    ion-card.bguser{
+      --ion-background-color: linear-gradient(to right, #0f0d0e, #6e6d6e);
+    }
+
+    .ion-padding{
+      color: rgb(218, 214, 214);
+      
+    }
+
+    ion-card{
+      top: 7%;
+      margin-left: 10%;
+      margin-right: 10%;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+
+    .title{
+      font-size: 250%;
+      font-style: inherit;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .title2{
+      font-size: 150%;
+    }
+
+  }
+  
+  
   
 
