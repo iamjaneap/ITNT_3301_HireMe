@@ -14,7 +14,7 @@
 &nbsp; &nbsp; &nbsp; &nbsp;  The proposed project will help owners / staff to easily find a trustworthy employee to work to their business. The information of their company including the job they are offering will be posted in the application if they want in order to easily find new employees. <br> 
 
 <b>People Who Seek for Jobs</b><br>
-&nbsp; &nbsp; &nbsp; &nbsp;  The proposed project will help many people to easily find a firm who are hiring an employee for them to apply. They could easily see what are the information of a specific company and information of the job they are offering in order for you to decide what kind of job to apply. <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  The proposed project will help many people to easily find a firm who are hiring an employee for them to apply. They could easily see what are the information of a specific company and information of the job they are offering in order for them to decide what kind of job to apply. <br>
 
 <h1 align="center"> 
 
