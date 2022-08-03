@@ -1,9 +1,9 @@
 # HireMe: A Job Finder Application for Seekers in Bauan, Batangas
 
 <h3> Introduction </h3>
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; The purpose of HireMe: A Job Finder Application for Seekers in Bauan, Batangas is to provide a platform for making the job-searching and job-posting processes simpler and more effective. As a function of the initiative, job seekers will be able to hunt for jobs more easily, and employers will be able to find qualified candidates.
-
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; Both job seekers and companies must be as effective as possible in today's labor market. Normally, job searchers have searched for job offers and openings manually and personally, which takes time and needs significant effort. In order to find out if a company is hiring, job seekers visit agencies or companies. Additionally, employers regularly utilize agencies or posters to publicize job opportunities, which is ineffective and slow to reach candidates. The manual method has to be improved because it is often ineffective.
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; Automation of job searching is one benefit that technology provides for individuals. Generally, job searchers have searched for job offers and openings manually and personally, which takes time and needs significant effort. In order to find out if they are hiring, job seekers visit agencies or businesses. Additionally, employers frequently use agencies or posters to advertise job openings, which is ineffective and slow to reach potential employees. The manual method has to be improved because it is often ineffective. 
+  
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; HireMe: A Job Finder Application for Seekers in Bauan, Batangas is an online application that improves the recruiting and publishing of job openings. Job searchers might save time and effort by just looking at positions that match their credentials. Additionally, it will be easy for companies to advertise and hire for open positions. The system's execution will make the hiring and application processes easier and more straightforward. Both job searchers and companies may easily and conveniently utilize the web platform. Job search requests were effectively digitized by the mobile and online application.
 
 <h1 align="center">
 
@@ -37,12 +37,13 @@
   
 <h3> Methods </h3>
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; The researchers will utilize the Scrum method. Scrum shares Agile’s fundamental philosophy that development teams should collaborate daily and intensively. Scrum uses an iterative approach to web development where the team is a key. This approach requires self-management and self-organization which means that it will be a good fit for smaller projects with experienced and organized team members.
+  
 <p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; Scrum combines the flexibility and iterative practices of the modern-day Agile method and the discipline and structure of more conventional methodologies. End goals are broken into smaller ones and the teams are supposed to use fixed-length iterations (typically they are two-week-long) to develop software and present it to the client. Meetings are crucial here and during each iteration, teams conduct daily meetings to track progress and get feedback. Such iterative approach allows quick changes and increases effectiveness for complex projects.
 
 <h1 align="center"> 
   
 <h3> Expected Output </h3>
-<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; This application is to help jobseekers and store owners to file and manage job vacancies and job application adequately. Moreover, this application will benefit to the both store owners and job seekers to find their suitable position, for the jobseekers. And staff, for the store owners. 
+<p align=justify>&nbsp;&nbsp;&nbsp;&nbsp; On their laptops or mobile devices, many individuals are looking for jobs, but they are not having much luck. This is due in part to the difficulty of searching while on the job and to the length of time it takes to develop a strong CV and cover letter. The major goal of this project is to create and build a job-searching and job-posting website that will be useful to both job seekers and employers. The researchers suggested developing a mobile and online application that would let job seekers and businesses look for and publish job opportunities, respectively, to address the aforementioned development requirement. The project is an internet platform that makes it easier to look for jobs and publish them. Searching for open employment that match their talents may save time and effort for job seekers. Additionally, it will be simpler for employers to advertise and recruit for open positions. 
 
 <h1 align="center"> 
   
